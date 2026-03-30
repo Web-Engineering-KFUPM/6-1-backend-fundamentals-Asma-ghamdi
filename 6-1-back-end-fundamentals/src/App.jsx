@@ -378,8 +378,13 @@ export default function App() {
       .catch((err) => console.error(err));
   }, []);
   
+      {student && (
+        <div>
+          <h3>{student.name}</h3>
+          <p>{student.major}</p>
+        </div>
+      )}
 
-  
   return (
     <main className="app-shell">
       <section className="hero-box">
