@@ -20,3 +20,11 @@ app.get('/', (req, res) => {
   res.send('Hello from the back-end server');
 });
 
+
+// TODO 6: Create the "/about" route
+
+app.get('/about', (req, res) => {
+  res.send('This is the about route');
+});
+
+
